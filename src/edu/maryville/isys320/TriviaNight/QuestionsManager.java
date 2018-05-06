@@ -12,7 +12,7 @@ public class QuestionsManager {
 	public ArrayList<String> categories = new ArrayList<String>();
 	public ArrayList<String> questions = new ArrayList<String>();;
 	public ArrayList<String> answers = new ArrayList<String>();;
-	
+	int totalQandA = 0;
 	public QuestionsManager(String categoryFolder) {
 		File fldr = new File(categoryFolder);
 		String[] files = fldr.list();
